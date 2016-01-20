@@ -12,8 +12,8 @@
 (defvar mu4e-installation-path nil
   "Installation path for mu4e.")
 
-(defvar mu4e-account-alist nil
-  "Account alist for custom multi-account compose.")
+(defvar mu4e-alert-enable nil
+  "Enable alert for new messages")
 
 (when mu4e-installation-path
   (push mu4e-installation-path load-path))
